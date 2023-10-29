@@ -3,27 +3,45 @@ body{
 	display : flex;
 	align-items: center;
 	height : 100vh;
+	justify-content : center;
 	background-color:#f6f6f6 !important;
 }
 .right{
-	background-color: white;
-	margin-right:10px;
-	width : 350px;
-	padding: 15px;
-	box-shadow: 
-    .1em 0.2em 1em rgba(200, 0, 0, 0.6);
-	border-radius : 5px;
+	
 }
 .left{
 	margin-left : 10px;
 	text-wrap : wrap;
+	width: 450px;
+	margin-top: 70px;
+	display : inline-block;
 }
-.form{
-	background-color: rgba(0, 0, 0, 0) !important;
+form{
+	display : flex;
+	width: 300px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow : 0 0 10px #ccc;
+	flex-direction:  column;
+	gap : 10px;
 }
 .signup{
-	background-color : #43b72a !important;
+	background-color : #42b72a !important;
+}
+input{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+button{
+	background-color: #1877f2;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width : 100%;	
+	color: white;
 }
 a{
 	text-decoration: none !important;
+	color: #1877f2 !important;
 }
