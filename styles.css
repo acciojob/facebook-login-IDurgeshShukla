@@ -3,12 +3,12 @@ body{
 	display : flex;
 	align-items: center;
 	height : 100vh;
-	
+	background-color:#f6f6f6 !important;
 }
 .right{
 	background-color: white;
 	margin-right:10px;
-	width : 50vw;
+	width : 300px;
 	padding: 10px;
 	box-shadow: 
     0.3em 0.3em 01em rgba(200, 0, 0, 0.6);
@@ -19,5 +19,11 @@ body{
 	text-wrap : wrap;
 }
 form{
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255) !important;
+}
+.signup{
+	background-color : #43b72a !important;
+}
+a{
+	text-decoration: none !important;
 }
