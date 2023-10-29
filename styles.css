@@ -3,7 +3,7 @@ body{
 	display : flex;
 	align-items: center;
 	height : 100vh;
-	background-color: #f6f6f6 !important;
+	
 }
 .right{
 	background-color: white;
